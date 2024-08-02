@@ -1,0 +1,51 @@
+.flex {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-start {
+    justify-content: start;
+}
+
+.jc-end {
+    justify-content: end;
+}
+
+.jc-space-between {
+    justify-content: space-between;
+}
+
+.jc-space-around {
+    justify-content: start;
+}
+
+.jc-space-evenly {
+    justify-content: stretch;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-start {
+    align-items: start;
+}
+
+.ai-end {
+    align-items: end;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.max {
+    width: 100%;
+}

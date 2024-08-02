@@ -1,0 +1,35 @@
+@import '/src/app/variables.scss';
+.caption {
+    font-size: 0.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.paragraph {
+    font-size: 1rem;
+}
+
+.link {
+    font-size: 1rem;
+}
+
+.primary {
+    color: $primary_color;
+}
+
+.secondary {
+    color: $secondary_color;
+}
+
+.accent {
+    color: $accent_color;
+}
+
+.card {
+    color: $card_color;
+}
+
+

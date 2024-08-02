@@ -1,0 +1,17 @@
+@import '/src/app/variables.scss';
+
+.button {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: $primary_color;
+    color: $card_color;
+    font-size: 1.2rem;
+    transition: all 300ms;
+    border: none;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+

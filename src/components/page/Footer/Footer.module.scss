@@ -1,0 +1,11 @@
+@import '/src/app/variables.scss';
+
+.footer {
+    position: static;
+    width: 100%;
+    bottom: 0;
+    background-color: $primary_color;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

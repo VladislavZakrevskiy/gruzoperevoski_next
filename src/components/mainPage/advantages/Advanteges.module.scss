@@ -1,0 +1,68 @@
+@import '/src/app/variables.scss';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    height: 300px; 
+}
+
+.stepContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step {
+    text-align: center;
+    position: absolute;
+    transition: all 0.3s ease;
+
+    p {
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+.icon {
+    font-size: 2.5rem;
+    background-color: $primary_color;
+    color: white;
+    padding: 12px;
+    aspect-ratio: 1;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.truckIcon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: $secondary_color;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
+    animation: moveTruck 6s linear infinite;
+}
+
+@keyframes moveTruck {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(120px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(120px) rotate(-360deg);
+    }
+}

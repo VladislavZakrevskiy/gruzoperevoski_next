@@ -1,0 +1,31 @@
+@import '/src/app/variables.scss';
+
+.cardContainer {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.max {
+    width: 100%;
+}
+
+.black {
+    border: 1px solid black;
+
+}
+
+.primary {
+    border: 1px solid $primary_color;
+}
+
+.secondary {
+    border: 1px solid $secondary_color;
+}
+
+.accent {
+    border: 1px solid $accent_color;
+}
+
+.card {
+    border: 1px solid $card_color;
+}

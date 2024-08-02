@@ -1,0 +1,57 @@
+
+
+.truckContainer {
+    flex-shrink: 0.000000001;
+    position: relative;
+    right: 0;
+}
+
+.truck {
+    position: absolute;
+    transition: all 1s;
+    animation: truck ease 2s;
+}
+
+@media (max-width: 1000px) {
+    .truck {
+        display: none;
+    }
+
+    .truckContainer {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1000px) {
+    .truck {
+        width: calc(2695px / 4);
+        height: calc(1820px / 4);
+    }
+
+    .truckContainer {
+        width: calc(2695px / 4);
+        height: calc(1820px / 4);
+    }
+}
+
+@media (min-width: 1400px) {
+    .truck {
+        width: calc(2695px / 3);
+        height: calc(1820px / 3);
+    }
+
+    .truckContainer {
+        width: calc(2695px / 3);
+        height: calc(1820px / 3);
+    }
+}
+
+@keyframes truck {
+    0% {
+        right: -1000px;
+    }
+
+    100% {
+        right: 0;
+    }
+}
